@@ -1,0 +1,105 @@
+body {
+  background: hsla(238, 100%, 71%, 1) no-repeat;
+
+  background: linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(238, 100%, 71%, 1) 0%,
+    hsla(295, 100%, 84%, 1) 100%
+  ) no-repeat;
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#696EFF", endColorstr="#F8ACFF", GradientType=1 );
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+input[type=text], input[type=number] {
+  margin-left: 30px;
+}
+
+#time-option {
+  outline: none;
+  border: none;
+  width: 300px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#save-btn {
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#web-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 50px;
+}
+
+#web-input {
+  outline: none;
+  border: none;
+  width: 300px;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#web-add {
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.web-label {
+  color: white;
+  font-size: 22px;
+  margin: 0 10px;
+}
+
+.web-delete {
+  outline: none;
+  border: none;
+  padding: 2px 3px;
+  border-radius: 4px;
+  color: indianred;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  margin: 6px;
+}

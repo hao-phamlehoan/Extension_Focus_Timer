@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="options.css" />
+    <title>Focus Timer Extension Options</title>
+  </head>
+  <body>
+    <h1>Focus Timer Options</h1>
+    <label>
+      <h2>Default Time in Minutes (1 - 60):</h2>
+      <input id="time-option" type="number" min="1" max="60" value="25" />
+    </label>
+    <button id="save-btn">Save Options</button>
+    <h2>Block website</h2>
+    <div class="form">
+      <input type="text" id="web-input" />
+      <input type="submit" id="web-add" value="Add website" />
+    </div>
+    <div id="web-container">
+    </div>
+  </body>
+  <script src="options.js"></script>
+</html>
